@@ -26,8 +26,8 @@ class Board:
     def isNotBusy(self,index):
         return self.board[index].isdigit()# or do this ==> return self.board[index].isalpha()
     
-    def get_board(self):
-        return self.board
+    # def get_board(self):
+    #     return self.board
             
 # ======================================= test class ======================================
 # board=Board()
